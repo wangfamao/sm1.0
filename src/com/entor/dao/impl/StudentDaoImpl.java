@@ -271,4 +271,9 @@ public class StudentDaoImpl implements StudentDao{
 		return list;
 	}
 
+	@Override
+	public void test() {
+		System.out.println("测试");
+	}
+
 }
